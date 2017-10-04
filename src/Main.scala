@@ -2,6 +2,8 @@ object Main extends App{
 
 
   override def main(args: Array[String]): Unit ={
-    println("Hello World!")
+    var mapList = List(1, 2, 4, 10, 50);
+    mapList = mapList.map(x => x*x)
+    println(mapList)
   }
 }
